@@ -1,0 +1,120 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background: url(/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+}
+.set{
+    text-decoration: none;
+    font-family: sans-serif;
+    height: max-content;
+    width: 400px;
+    border: 0;
+    border-radius: 15px!important;
+    box-shadow: 0 5px 8px rgb(82, 78, 78);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 0!important;
+    box-shadow: 0 5px 8px rgb(82, 78, 78);
+}
+
+.header{
+    height: 15em;
+    background: url(/Shared\ from\ Lightroom\ mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    background: rgba(245, 222, 179, 0.397);
+    padding-top: 100px;
+    padding-bottom: 5em;
+    text-align: center;
+    height: max-content;
+}
+
+h3{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+.countryandemail{
+    justify-content: center;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+.country{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    display: flex;
+    padding-left: 1em;
+}
+
+.email{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    display: flex;
+    margin-left: -1.6em;
+}
+
+.followersdetails{
+    justify-content: center;
+    border-top: 1px solid rgba(100, 99, 99, 0.473);
+    padding-left: 1em;
+}
+
+.followers{
+    float: left;
+    justify-content: center;
+    padding-left: 2.8em;
+    padding-right: 4em;
+    border-right: 1px solid rgba(129, 115, 115, 0.404);
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+}
+
+.following{
+    float: left;
+    justify-content: center;
+    padding-left: 3.6em;
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+}
+
+.follow-btn{
+    width: 100%;
+    background-color: rgba(118, 245, 118, 0.493);
+    height: 2.3em;
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0;
+    margin-top: -2em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
